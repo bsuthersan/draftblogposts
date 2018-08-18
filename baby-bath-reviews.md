@@ -59,6 +59,8 @@ There were 86 duplicated rows in total, so after all of this, I was left with a 
 
 
 
+Well, there you have it. The median use time seems to be just 3 months (and the average time only 3.6 months), so I guess it's a pass from us for now. 
+
 
 
 
