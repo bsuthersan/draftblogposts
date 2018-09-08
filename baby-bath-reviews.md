@@ -1,5 +1,7 @@
 ---
-Title: Data driven parenting: Using tidytext to evaluate a baby bat
+title: Data driven parenting
+description: 
+header: Data driven parenting: Using web scraping to evaluate the longevity of a baby bath
 ---
 
 Like many soon-to-be parents, my husband and I are currently trying to navigate all the new products we need to buy before the little chap makes his arrival...clothes, wraps, nappy changing tables, you name it. One of the new things we'll need is a baby bath, as we don't have a separate bath at our current place. 
@@ -19,7 +21,7 @@ keywords <- mydata %>%
 
 In total, 199 observations were left in the `keywords` dataset after undertaking the filtering.
  
-Whilst some commenters had given the duration in numeric terms ("1"), others had given it in string format (e.g. "one"). To deal with this, I created a new dataframe, `numberdata`, to match up the number with its string format.
+Whilst some commenters had given the duration in numeric terms ("1"), others had given it in string format (e.g. "one"). To deal with this, I created a new dataframe, `numberdata`, to match the number with its string format.
 
 ```
 numberdata <- data.frame(
@@ -57,7 +59,7 @@ keywords <- keywords %>%
 ```
 There were 86 duplicated rows in total, so after all of this, I was left with a data frame of 98 observations. However, with the data in the right format, it was time to graph it and run some basic descriptive stats.
 
-
+![alt text](https://github.com/bsuthersan/draftblogposts/blob/master/babybathmonths.png)
 
 Well, there you have it. The median use time seems to be just 3 months (and the average time only 3.6 months), so I guess it's a pass from us for now. 
 
