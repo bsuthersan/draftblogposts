@@ -5,7 +5,7 @@ output: html_notebook
 
 I have been playing around with the newly revamped [gganimate package](https://github.com/thomasp85/gganimate) recently. I've found it so intuitive, especially having used d3 before. You can really make some amazing graphs by utilising only a few lines of extra code.
 
-For example: below is the full code (including cleaning/transformation) I used to create a gif of the numbers of young people in England aged 16-24 who were not in employment, education or training (NEET) between 2000 and 2017. I made use of the new gganimate function `transition_reveal`, which allowed me to slowly transition the `geom_line`.
+For example: below is the full code (including cleaning/transformation) I used to create a gif of the numbers of young people in England aged 16-24 who were not in employment, education or training (NEET) between 2000 and 2017. I made use of the new gganimate function `transition_reveal`, which allowed me to slowly transition the `geom_line` along the `Date` variable.
 
 ```
 library(readxl)
