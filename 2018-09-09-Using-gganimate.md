@@ -47,12 +47,13 @@ mydata <- mydata %>%
 ggplot(mydata, aes(x=Date, y=value, group=1)) +
   geom_line(color="steelblue") +
   theme_minimal() +
+  transition_reveal(Date, along=Date) +
   xlab("") +
   ylab("No. (000s)") +
   labs(caption = "Source: Department for Education")
 ```
 
-Only 51 lines of code!
+Only 51 lines of code! And the finished product:
 
 
 
